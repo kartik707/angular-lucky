@@ -7,9 +7,10 @@ import { MaterialModule } from '../material/material.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MaterialModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
