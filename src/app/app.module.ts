@@ -13,7 +13,7 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
 import { PastTrainingsComponent } from './training/past-trainings/past-trainings.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './welcome/welcome.component';
-
+//
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MaterialModule, AppRoutingModule  ],
