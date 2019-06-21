@@ -26,3 +26,7 @@
 #child3 {
   background-color: yellow;
 }   */
+
+mat-form-field {
+  width: 300px;
+}
