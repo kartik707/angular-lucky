@@ -1,4 +1,4 @@
-mat-sidenav-conatiner, mat-sidenav-content, mat-sidenav {
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
   height: 100%;
 }
 
@@ -6,18 +6,3 @@ mat-sidenav {
   width: 250px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover,
-a:active {
-  color: lightgray;
-}
-
-.navigation-items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
