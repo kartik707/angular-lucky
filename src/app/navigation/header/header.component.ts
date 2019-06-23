@@ -3,7 +3,6 @@ import { Subscription } from 'rxjs/Subscription';
 
 import { AuthService } from '../../auth/auth.service';
 
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -20,11 +19,14 @@ export class HeaderComponent implements OnInit, OnDestroy {
     this.authSubscription = this.authService.authChange.subscribe(authStatus => {
       this.isAuth = authStatus;
     });
-
   }
 
   onToggleSidenav() {
     this.sidenavToggle.emit();
+  }
+
+  onLogout() {
+    this.authService.logout();
   }
 
   ngOnDestroy() {
