@@ -1,5 +1,5 @@
-import { User } from 'src/auth/user.model';
-import { AuthData } from 'src/auth/auth-data.model';
+import { User } from './user.model';
+import { AuthData } from './auth-data.model';
 
 
 export class AuthService{
